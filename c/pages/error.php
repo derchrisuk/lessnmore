@@ -9,7 +9,7 @@ include('stubs/header.php'); ?>
 	<?php echo htmlentities($error) ?>
 </p>
 <p>
-	<a href="/-/">Back</a>
+	<a href="/c/">Back</a>
 </p>
 
 <?php if(isset($bc_log) && strlen($bc_log)) : ?>

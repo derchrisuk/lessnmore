@@ -15,12 +15,12 @@
 	
 	<p>Grab the <a 
 		title="Shrink a link"
-		href="javascript:var%20my_slug=window.prompt('Shrinking%20this%20URL.%20Enter%20a%20custom%20short%20URL,%20or%20leave%20blank%20to%20automatically%20assign%20one.');if(my_slug!==null){location.href='<?php echo BCURLS_URL; ?>-/?url='+encodeURIComponent(location.href)+'&amp;custom_url='+encodeURIComponent(my_slug);}" 
+		href="javascript:var%20my_slug=window.prompt('Shrinking%20this%20URL.%20Enter%20a%20custom%20short%20URL,%20or%20leave%20blank%20to%20automatically%20assign%20one.');if(my_slug!==null){location.href='<?php echo BCURLS_URL; ?>c/?url='+encodeURIComponent(location.href)+'&amp;custom_url='+encodeURIComponent(my_slug);}" 
 		onclick="alert('Drag this bookmarklet onto your browser bar.');return false;">
 		Lessn
 		</a> or <a 
 		title="Shrink and tweet the shortened link"
-		href="javascript:var%20my_slug=window.prompt('Shrinking%20this%20URL.%20Enter%20a%20custom%20short%20URL,%20or%20leave%20blank%20to%20automatically%20assign%20one.');if(my_slug!==null){location.href='<?php echo BCURLS_URL; ?>-/?tweet&amp;url='+encodeURIComponent(location.href)+'&amp;custom_url='+encodeURIComponent(my_slug);}"
+		href="javascript:var%20my_slug=window.prompt('Shrinking%20this%20URL.%20Enter%20a%20custom%20short%20URL,%20or%20leave%20blank%20to%20automatically%20assign%20one.');if(my_slug!==null){location.href='<?php echo BCURLS_URL; ?>c/?tweet&amp;url='+encodeURIComponent(location.href)+'&amp;custom_url='+encodeURIComponent(my_slug);}"
 		onclick="alert('Drag this bookmarklet onto your browser bar.');return false;">
 		Tweetn
 		</a> bookmarklet.

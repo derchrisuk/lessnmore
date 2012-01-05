@@ -30,7 +30,7 @@ REQUIRE 'stats.php';
 define('BCURLS_VERSION',	'2.0.1');
 
 define('BCURLS_DOMAIN', 	preg_replace('#^www\.#', '', $_SERVER['SERVER_NAME']));
-define('BCURLS_URL', 	str_replace('-/index.php', '', 'http://'.BCURLS_DOMAIN.$_SERVER['PHP_SELF']));
+define('BCURLS_URL', 	str_replace('c/index.php', '', 'http://'.BCURLS_DOMAIN.$_SERVER['PHP_SELF']));
 
 //don't reveal db prefix over HTTP. 16 chars is more than enough to avoid collisions
 define('COOKIE_NAME', 	substr(md5(DB_PREFIX.COOKIE_SALT), 4, 16).'auth'); 

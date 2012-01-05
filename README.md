@@ -104,7 +104,7 @@ Installation instructions are different depending on if you are upgrading or doi
 
 **ONLY** follow these instructions if you are not upgrading!
 
-1. Open /-/config.php in a plaintext editor and
+1. Open c/config.php in a plaintext editor and
 	create a Lessn username and password then enter your
 	database connection details.
 	You may also choose other settings such as
@@ -116,7 +116,7 @@ Installation instructions are different depending on if you are upgrading or doi
 3. Visit http://doma.in/install.php to create the necessary
 	database tables. (Watch for errors.)
 
-4. Visit http://doma.in/-/ to log in & start using Lessn More!
+4. Visit http://doma.in/c/ to log in & start using Lessn More!
 	Be sure to grab the bookmarklets. 
 	
 **NOTE:** If your Lessn'd urls aren't working you probably didn't

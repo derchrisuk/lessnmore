@@ -122,7 +122,7 @@ class Migrator
 		<html>
 		<head>
 		<title>Installing or Upgrading ".APP_NAME."</title>
-		<link type=\"text/css\" rel=\"stylesheet\" href=\"/-/css/admin.css\"/>
+		<link type=\"text/css\" rel=\"stylesheet\" href=\"/c/css/admin.css\"/>
 		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
 		</head>
 		<body>

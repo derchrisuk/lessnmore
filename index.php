@@ -1,13 +1,13 @@
 <?php
 
-include('-/config.php');
-include('-/db.php');
+include('c/config.php');
+include('c/db.php');
 
 $token = (isset($_GET['token']) ? $_GET['token'] : '');
 
 $show_stats = (isset($_GET['stats']) OR strrpos($token, '/stats') !== false);
 if (RECORD_URL_STATS OR $show_stats) {
-	include('-/stats.php');
+	include('c/stats.php');
 }
 
 /*

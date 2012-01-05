@@ -1,3 +1,7 @@
+2.2
+- Forked from alanhogan's fork. No further updates will occure to this
+  CHANGES.txt file, the git history says it all.
+
 2.1.1
 - Merged changes from jfro’s fork.
 	- Changed insert queries to support Postgres

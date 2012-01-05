@@ -1,6 +1,6 @@
 <?php include('stubs/header.php'); ?>
 <p>
-	<a href="/-/">Back</a>
+	<a href="/c/">Back</a>
 </p>
 <table border="0" cellspacing="0" cellpadding="10">
 	<tr>
